@@ -25,20 +25,19 @@ st.markdown("""
         background-color: #f0f2f6;
     }
     
-    /* Estilo de Tarjetas */
+    /* Estilo de Tarjetas Adaptable */
     div.stMetric {
-        background-color: #ffffff;
+        background-color: var(--secondary-background-color);
         border-radius: 12px;
         padding: 20px !important;
-        box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -1px rgba(0, 0, 0, 0.06);
-        border: 1px solid #e5e7eb;
+        box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1);
+        border: 1px solid rgba(128, 128, 128, 0.2);
     }
     
     /* Títulos de Métricas */
     [data-testid="stMetricLabel"] {
         font-size: 0.9rem !important;
         font-weight: 600 !important;
-        color: #6b7280 !important;
         text-transform: uppercase;
     }
     
@@ -46,16 +45,16 @@ st.markdown("""
     [data-testid="stMetricValue"] {
         font-size: 1.8rem !important;
         font-weight: 700 !important;
-        color: #111827 !important;
     }
 
-    /* Contenedores de Gráficos */
+    /* Contenedores de Gráficos Adaptables */
     .plot-container {
-        background-color: white;
+        background-color: var(--secondary-background-color);
         padding: 1.5rem;
         border-radius: 12px;
         box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.1);
         margin-bottom: 1.5rem;
+        border: 1px solid rgba(128, 128, 128, 0.2);
     }
 
     /* Sidebar */

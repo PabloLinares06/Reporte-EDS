@@ -72,10 +72,11 @@ st.markdown("""
     }
 
     .stTabs [data-baseweb="tab"] {
-        background-color: #ffffff;
+        background-color: var(--secondary-background-color);
         border-radius: 8px 8px 0 0;
         padding: 10px 20px;
-        border: 1px solid #e5e7eb;
+        border: 1px solid rgba(128, 128, 128, 0.2);
+        color: var(--text-color);
     }
 
     .stTabs [aria-selected="true"] {

@@ -1,0 +1,14 @@
+__pycache__/
+*.py[cod]
+*$*
+.streamlit/
+.env
+.venv
+env/
+venv/
+bin/
+include/
+lib/
+share/
+# Archivos temporales de Excel
+~$*
